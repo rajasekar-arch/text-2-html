@@ -1,0 +1,45 @@
+{
+  "name": "text-2-html",
+  "version": "1.0.0",
+  "description": "A lightweight and versatile npm package for converting plain text strings into HTML with inline CSS styles and a specified HTML tag. Perfect for both frontend and backend web development.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest --coverage --json --outputFile=test-results/jest-results.json",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "text",
+    "converter",
+    "styles",
+    "frontend",
+    "backend",
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "author": "RAJASEKAR E C <rajasekar_e_c@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekar-arch/text-2-html.git"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajasekar-arch/text-2-html/issues"
+  },
+  "homepage": "https://github.com/rajasekar-arch/text-2-html#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "jest-html-reporters": "^3.1.7",
+    "jest-junit": "^16.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}

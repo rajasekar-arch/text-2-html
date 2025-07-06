@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="3.678">
+  <testsuite name="textToHtml" errors="0" failures="0" skipped="0" timestamp="2025-07-06T06:44:04" time="3.326" tests="9">
+    <testcase classname="textToHtml should convert text to H1 with black text and red background" name="textToHtml should convert text to H1 with black text and red background" time="0.003">
+    </testcase>
+    <testcase classname="textToHtml should default to a P tag when no stylesFormat is provided" name="textToHtml should default to a P tag when no stylesFormat is provided" time="0.001">
+    </testcase>
+    <testcase classname="textToHtml should default to a P tag and apply styles when htmlTag is omitted" name="textToHtml should default to a P tag and apply styles when htmlTag is omitted" time="0.001">
+    </testcase>
+    <testcase classname="textToHtml should correctly convert camelCase CSS properties to kebab-case" name="textToHtml should correctly convert camelCase CSS properties to kebab-case" time="0.001">
+    </testcase>
+    <testcase classname="textToHtml should convert common color names to hex codes" name="textToHtml should convert common color names to hex codes" time="0">
+    </testcase>
+    <testcase classname="textToHtml should use provided hex color codes directly" name="textToHtml should use provided hex color codes directly" time="0.001">
+    </testcase>
+    <testcase classname="textToHtml should handle empty text string gracefully" name="textToHtml should handle empty text string gracefully" time="0.001">
+    </testcase>
+    <testcase classname="textToHtml should apply custom tag with no inline styles if only htmlTag is provided" name="textToHtml should apply custom tag with no inline styles if only htmlTag is provided" time="0.001">
+    </testcase>
+    <testcase classname="textToHtml should ignore non-string style values" name="textToHtml should ignore non-string style values" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
